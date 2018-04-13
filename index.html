@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Photo Cage app</title>
+    <link rel='stylesheet' href='css/styles.css'>
+    <script src='js/script.js'></script>
+</head>
+
+<body>
+    <header>
+        <div class='container header-container'>
+            <div class='title'><span class='orange-text'>Photo</span>Cage app</div>
+            <ul class='menu'>
+                <li>
+                    <img src='img/home.png' alt='Home'>
+                    <a href='#'>Home</a>
+                </li>
+                <li>
+                    <img src='img/gallery.png' alt='Gallery'>
+                    <a href='#'>Gallery</a>
+                </li>
+                <li>
+                    <img src='img/members.png' alt='Members'>
+                    <a href='#'>Members</a>
+                </li>
+                <li>
+                    <img src='img/logout.png' alt='Logout'>
+                    <a href='#'>Logout</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class='upload'>
+        <div class='container'>
+            <p>Please select an image from you computer</p>
+            <div class='upload-div'>
+            <div class='input-btn-wrapper'>
+                <button id='input-btn'>Browse</button>
+                <input name='userfile' id='input-files' type='file' multiple style='display:none'>
+            </div>
+            <button id='upload-image-btn'>Upload image</button>
+        </div>
+        </div>
+    </section>
+    <section class='content'>
+        <div class='content-container container'>
+            <div class='photo-data'>
+                <div class='img-wrapper'>
+                    <img src='img/1.png' alt='photo not found'>
+                    <p class='date'>10/08/2010</p>
+                </div>
+                <div class='photo-data-name'>
+                    <span class='image-name'>Lorem Ipsum is simply</span>
+                    <img class='rate' src='img/star.png' alt='rate'>
+                </div>
+                <div class='share'>
+                    <span>Share</span>
+                    <div data-title='share in tumblr' id='tumblr-btn' class='social-btn'></div>
+                    <div data-title='share in facebook' id='facebook-btn' class='social-btn'></div>
+                    <div data-title='share in pinterest' id='pinterest-btn' class='social-btn'></div>
+                    <div data-title='share in twitter' id='twitter-btn' class='social-btn'></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        
+            <div class='copyright'>© 2018 Photocage app powered by cssauthor.com</div>
+        
+    </footer>
+</body>
+
+</html>
